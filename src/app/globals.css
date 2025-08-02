@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@font-face {
+  font-family: "atari_classicchunky";
+  src: url("atari_font.woff2") format("woff2"),
+    url("atari_font.woff") format("woff");
+  font-size: xx-small !important;
+}
+
+.retro {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.375rem 0.75rem;
+	background: white;
+	color: black;
+	border: 3px solid black !important;
+	border-radius: 0;
+	box-shadow: 3px 3px black, 5px 5px white;
+	padding-right: 5%;
+  }
+  
+  .retro:hover {
+	color: black;
+	background: white;
+	cursor: pointer;
+  }
+  
+  .retro:active {
+	box-shadow: 0px 0px white;
+	transform: translateX(5px) translateY(2px);
+  }
+  
+  .rbtn-small {
+	box-shadow: 2px 2px black, 4px 4px white;
+  }
+  
+body {
+	font-family: "atari_classicchunky" !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+	margin: 0;
+}
+
+.game-container {
+	text-align: center;
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(5, 50px);
+	grid-gap: 5px;
+	margin-bottom: 10px;
+}
+
+.board div {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+
+.correct {
+	background-color: #6aaa64;
+	color: white;
+}
+
+.present {
+	background-color: #c9b458;
+}
+
+.absent {
+	background-color: #787c7e;
+}
+
+#guessInput {
+	padding: 10px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+button {
+
+	cursor: pointer;
+}
+
+.key-chart {
+	display: grid;
+	grid-template-columns: repeat(8, 30px);
+	grid-gap: 5px;
+	margin-top: 20px;
+}
+.key-chart div {
+	background: #f4f4f4;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.key-chart .absent {
+	background-color: #787c7e;
+	color: #fff;
+}
+.key-chart .correct {
+	background-color: #6aaa64;
+	color: #fff;
+}
