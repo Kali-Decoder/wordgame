@@ -1,8 +1,8 @@
 {
   "accountAssociation": {
     "header": "eyJmaWQiOjEwNzU5MDYsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg4QjNkRGRENTlFMzZBNGYwZmU4RUI3OGE0RDVERjhmNjA5MDdDQkMyIn0",
-    "payload": "eyJkb21haW4iOiJ3b3JkLXB1enpsZS1sZW1vbi52ZXJjZWwuYXBwIn0",
-    "signature": "MHhmZjA4ZDlmMmIwN2Y2M2EwYjBhOWVjOTc0MTM1YmFlMDU4ZjA2YmE0MGM2OTA4MjZkNTUwNjY4ZDJjNTYyNmFlNmJhMmI2Y2VjMjk0NWI0YWQ1Y2JkYmVkNGQ3YzI0ZTA5YWE3NTQxZDY4ZjBjMTk5NjViMGI2YWRmOTJkYjM5NDFi"
+    "payload": "eyJkb21haW4iOiJ3b3JkZ2FtZS1uaW5lLnZlcmNlbC5hcHAifQ",
+    "signature": "MHgwZjM4YzMwNzFiZjhjNDMzNGM2ZWEyYTcxNzRhNjMxODU4NjY0ZmJmMWU3ZmY3YTkxNTJkYTMxNDA3ZWI4YzQ0MDc1NmNhYjJjZTMyYzdlNzAxNjdkMTIwY2QwYzU1M2FkNzFlN2ZjYTA0ZjhhMjc1NTcwMGQ4ZTI3YTQ2MGUxZTFj"
   },
   "frame": {
     "version": "1",
@@ -14,7 +14,13 @@
     "splashImageUrl": "https://png.pngtree.com/png-clipart/20230810/original/pngtree-word-game-rgb-color-icon-block-mind-web-vector-picture-image_10272348.png",
     "splashBackgroundColor": "#6c54f8",
     "description": "Guess Words Earn STT",
-    "tags": ["word", "wordplay", "word-guess", "somnia", "somnia-word-play"],
+    "tags": [
+      "word",
+      "wordplay",
+      "word-guess",
+      "somnia",
+      "somnia-word-play"
+    ],
     "primaryCategory": "productivity"
   }
 }
