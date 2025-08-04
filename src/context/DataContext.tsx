@@ -85,7 +85,6 @@ const DataContextProvider: React.FC<DataContextProviderProps> = ({
     const toastId = toast.loading("Resolving game...");
     const PRIVATE_KEY = process.env.NEXT_PUBLIC_PRIVATE_KEY;
     const RPC_URL = "http://dream-rpc.somnia.network/";
-    console.log(_id,_multiplier);
     try {
       const provider = new ethers.providers.JsonRpcProvider(RPC_URL);
       const wallet = new ethers.Wallet(PRIVATE_KEY, provider);

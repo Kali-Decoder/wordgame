@@ -1,5 +1,4 @@
 "use client";
-
 import { WagmiProvider } from "wagmi";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { lightTheme, RainbowKitProvider } from "@rainbow-me/rainbowkit";
@@ -30,6 +29,8 @@ const Providers = ({ children }) => {
   useEffect(() => {
     const init = async () => {
       try {
+        console.log("hello",await sdk.actions.ready());
+        
         await sdk.actions.ready();
       } catch (error) {
         console.error("Failed to initialize Farcaster:", error);
