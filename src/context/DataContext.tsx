@@ -88,7 +88,7 @@ const DataContextProvider: React.FC<DataContextProviderProps> = ({
     try {
       const provider = new ethers.providers.JsonRpcProvider(RPC_URL);
       const wallet = new ethers.Wallet(PRIVATE_KEY, provider);
-      console.log(provider,wallet,PRIVATE_KEY);
+  
       const contract = new ethers.Contract(
         DiceManiaAddress,
         DiceManiaABI,
