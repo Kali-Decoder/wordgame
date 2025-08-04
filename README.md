@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Word Play – A Farcaster-Integrated Word Guessing Web3 Game
 
-## Getting Started
+Welcome to **Word Play** — a fun, strategic, and competitive word-guessing game where your **STT** tokens fuel the thrill!  
+Guess the word, beat the clock, and multiply your stake the faster you win. 🚀
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Word Play** is a brain-boosting game where players stake **STT tokens** to participate.  
+You’ll be given a **five-letter word** to guess, and your rewards depend on how **fast** and **accurately** you guess.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Key Features:**
+- Fully playable and working **Web3 game**.
+- Built with **Farcaster integration** for social sharing.
+- **On-chain** reward system powered by STT.
+- Deployed on **Somnia Testnet** with minimal off-chain dependency.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+**Contract Deployment:**  
+[View on Somnia Explorer](https://shannon-explorer.somnia.network/address/0xBFff78BB02925E4D8671D0d90B2a6330fcAedd87)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🕹 How to Play
 
-## Deploy on Vercel
+1. **Connect Your Wallet**  
+   - Connect your Web3 wallet to start playing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Deposit STT**  
+   - Deposit STT tokens and click **"Start Play"**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Guess the Word**  
+   - You’ll be given a **five-letter word** to guess.
+   - Use the fewest moves possible to guess correctly.
+
+4. **Earn Rewards**  
+   - The **faster** your guess and the **fewer mistakes** you make, the **higher your multiplier**.
+
+5. **Color Hints**  
+   - 🟩 **Green** → Correct letter in the correct position.  
+   - 🟨 **Yellow** → Correct letter but in the wrong position.  
+
+6. **Share Your Win**  
+   - After the game, share your victory with friends on **Farcaster 🚀**.
+
+---
+
+## 📜 Rules
+
+- You must **connect your wallet** before playing.
+- STT stake is required to start a round.
+- Rewards are calculated based on:
+  - Time taken to guess.
+  - Number of correct guesses before losing moves.
+- Higher speed = Higher multiplier.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React / Next.js
+- **Blockchain:** Somnia Testnet
+- **Wallet Integration:** Wagmi, Ethers.js
+- **Social Integration:** Farcaster
+- **Token:** STT
+
+---
+
+## 🌍 Deployment Requirements
+
+This repository contains:
+1. ✅ **Playable and working** version of the game.
+2. 📖 **README** with complete How-To-Play instructions.
+3. 🔗 **Deployed Web3 game** on Somnia Testnet with minimal off-chain dependency.
+
+---
+
+## 📬 Connect
+
+If you enjoy **Word Play**, share your feedback or connect with us via Farcaster.  
+Let’s make brain games fun & rewarding! 🎉
+
