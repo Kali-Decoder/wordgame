@@ -99,7 +99,6 @@ const DataContextProvider: React.FC<DataContextProviderProps> = ({
 
       const tx = await contract.resolve(_id, _multiplier);
       await tx.wait();
-
       toast.success("Game resolved successfully", { id: toastId });
       return true;
     } catch (error) {
