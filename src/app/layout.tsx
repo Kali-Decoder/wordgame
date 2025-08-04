@@ -35,15 +35,15 @@ export default function RootLayout({
           name="fc:frame"
           content='{
       "version": "1",
-      "imageUrl": "https://png.pngtree.com/png-clipart/20230810/original/pngtree-word-game-rgb-color-icon-block-mind-web-vector-picture-image_10272348.png",
+      "imageUrl": "https://s.tmimgcdn.com/scr/1200x750/218100/world-play-color-logo-style_218187-original.jpg",
        "button": {
           "title": "Word Play",
           "action": {
             "type": "launch_frame",
             "name": "Somnia Word Play",
-            "url": "https://word-puzzle-lemon.vercel.app/",
-            "splashImageUrl": "https://png.pngtree.com/png-clipart/20230810/original/pngtree-word-game-rgb-color-icon-block-mind-web-vector-picture-image_10272348.png",
-            "splashBackgroundColor": "#6c54f8"
+            "url": "https://wordgame-nine.vercel.app/",
+            "splashImageUrl": "https://s.tmimgcdn.com/scr/1200x750/218100/world-play-color-logo-style_218187-original.jpg",
+            "splashBackgroundColor": "black"
           }
         }
      }'
