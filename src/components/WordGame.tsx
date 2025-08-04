@@ -67,7 +67,7 @@ function getWarpcastShareLink({
   depositAmount: number;
 }): string {
   const baseUrl = "https://warpcast.com/~/compose";
-  const embedUrl = "https://farcaster.xyz/miniapps/lnPBREEfTQ-b/monad-word-play"; // Replace with your deployed game URL
+  const embedUrl = "https://farcaster.xyz/miniapps/lnPBREEfTQ-b/monad-word-play";
 
   const message = didWin
     ? `🎉 I just won ${
