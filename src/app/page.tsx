@@ -136,7 +136,7 @@ export default function Home() {
                     <div className="flex items-center mt-4 space-y-2">
                       {/* Profile Image */}
                       <img
-                        src="https://pbs.twimg.com/profile_images/1913881147659980800/p9F5EIue_400x400.jpg" // replace with your image path
+                        src="https://avatars.githubusercontent.com/u/82640789?v=4" 
                         alt="Profile"
                         className="w-10 h-10 rounded-full border-2 border-gray-300 shadow"
                       />
