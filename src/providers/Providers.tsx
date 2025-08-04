@@ -10,7 +10,7 @@ import { createStorage } from 'wagmi';
 import { farcasterFrame } from '@farcaster/frame-wagmi-connector';
 import DataContextProvider from "@/context/DataContext";
 
-import { sdk } from "@farcaster/frame-sdk";
+import { sdk } from '@farcaster/miniapp-sdk';
 import { useEffect } from "react";
 
 const config = createConfig({
